@@ -1,4 +1,4 @@
-package Easy.Contains_Duplicate;
+package Easy;
 
 import java.util.HashSet;
 import java.util.Set;

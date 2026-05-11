@@ -1,4 +1,4 @@
-package Easy.Valid_Anagram;
+package Easy;
 
 import java.util.Arrays;
 
