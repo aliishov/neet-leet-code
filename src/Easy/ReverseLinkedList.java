@@ -18,7 +18,7 @@ public class ReverseLinkedList {
 	}
 }
 
-public class ListNode {
+class ListNode {
      int val;
      public ListNode next;
      ListNode() {}

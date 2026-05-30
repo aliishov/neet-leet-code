@@ -1,7 +1,5 @@
 package Medium;
 
-import Easy.ListNode;
-
 public class RemoveNthNodeFromEndofList {
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		ListNode dummy = new ListNode(0);
@@ -23,4 +21,12 @@ public class RemoveNthNodeFromEndofList {
 
 		return dummy.next;
 	}
+}
+
+class ListNode {
+	int val;
+	public ListNode next;
+	ListNode() {}
+	public ListNode(int val) { this.val = val; }
+	ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
